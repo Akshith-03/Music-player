@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrackPlayer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="player-container">
+    <div class="image-container">
+      <img src="images/hoyna.jpg" alt="hoyna"/>
+    </div>
+    <h2>Hoyna hoyna</h2>
+    <h3>Anirudh Ravichander</h3>
+    <audio src="songs/Hoyna Hoyna - SenSongsMp3.Co.mp3"></audio>
+     
+    <!--progress-->
+    <div class="progress-container">
+      <div id="progress" class="progress"></div>
+      <div class="duration-wrapper">
+
+     
+        <span id="starting time">0:00</span>
+        <span id="duration">4:31</span>
+        </div>
+      
+    </div>
+    
+    <!--controls-->
+     <div class="player-controls">
+       <i class="fa-solid fa-backward" id="prev" title="prev"></i>
+       <i class="fa-solid fa-play" id="play" title="play" ></i>
+       <i class="fa-sharp fa-solid fa-forward" id="forward" title="forward"></i>
+      
+      </div>
+    
+  </div>
+  <script src="https://kit.fontawesome.com/362804635a.js" crossorigin="anonymous"></script>
+</body>
+</html>
